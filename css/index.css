@@ -6,6 +6,21 @@ nav {
     background-color: #5a5a5a;
 }
 
-.navbar-brand, .nav-link {
+.navbar {}
+
+.navbar-brand,
+.nav-link {
     color: #B0BAD1;
+    font-family: 'Jomhuria', serif;
+    font-size: 50px;
+    margin-top: -20px;
+    margin-bottom: -25px;
+}
+
+.navbar-brand {
+   
+}
+
+.nav-link {
+    font-size: 30px;
 }
