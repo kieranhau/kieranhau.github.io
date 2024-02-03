@@ -1,0 +1,11 @@
+body {
+    background-color: #A9A9A9;
+}
+
+nav {
+    background-color: #5a5a5a;
+}
+
+.navbar-brand, .nav-link {
+    color: #B0BAD1;
+}
