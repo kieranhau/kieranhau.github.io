@@ -17,10 +17,58 @@ nav {
     margin-bottom: -25px;
 }
 
-.navbar-brand {
-   
-}
+.navbar-brand {}
 
 .nav-link {
     font-size: 30px;
+}
+
+.banner {
+    background-image: url("../img/Naturephoto.png");
+    width: 100%;
+    text-align: center;
+}
+
+#welcome {
+    font-family: 'Jomhuria', serif;
+    font-size: 400px;
+    margin: -70px 0px -110px 0px;
+
+    background-color: #f3ec78;
+    background: linear-gradient(to bottom, #006eff, #4E5FBA 40%, #ffffff55 65%, #ffffff15 75%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    opacity: 0.8;
+
+}
+
+.intro {
+
+    margin-bottom: -20px;
+
+}
+
+.text-boxes {
+    margin: 0 auto;
+    background-color: rgb(126, 126, 126);
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.text-box {
+    margin: 12px;
+    padding: 1%;
+    background-color: white;
+    overflow: hidden;
+    width: 450px;
+    text-align: center;
+
+    float: left;
+    height: 400px;
+
 }
