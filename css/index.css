@@ -27,12 +27,14 @@ nav {
     background-image: url("../img/Naturephoto.png");
     width: 100%;
     text-align: center;
+    pointer-events: none;
 }
 
 #welcome {
-    font-family: 'Jomhuria', serif;
-    font-size: 400px;
-    margin: -70px 0px -110px 0px;
+
+    font-family: 'lora', serif;
+    font-size: 300px;
+    margin: -50px 0px -50px 0px;
 
     background-color: #f3ec78;
     background: linear-gradient(to bottom, #006eff, #4E5FBA 40%, #ffffff55 65%, #ffffff15 75%);
