@@ -74,25 +74,23 @@ nav {
     float: left;
     height: 400px;
 
-    animation: fadeIn 3s;
-    -webkit-animation: fadeIn 3s;
-    -moz-animation: fadeIn 3s;
-    -o-animation: fadeIn 3s;
-    -ms-animation: fadeIn 3s;
+    animation: fadeIn 1.25s;
+    -webkit-animation: fadeIn 1.25s;
+    -moz-animation: fadeIn 1.25s;
+    -o-animation: fadeIn 1.25s;
+    -ms-animation: fadeIn 1.25s;
 
     position: relative;
 
-    transition: margin 0.5s;
-    -webkit-transition: margin 0.5s;
-
-    transition: transform 0.5s;
-    -webkit-transition: transform 0.5s;
+    transition: margin 0.5s, transform 0.5s;
+    -webkit-transition: margin 0.5s, transform 0.5s;
 
     box-shadow: 0px 6px 11px -4px #5F5F5F;
+
 }
 
 .text-box:hover {
-    transform: scale(1.07)
+    transform: scale(1.07) translateY(-5%);
 }
 
 @keyframes fadeIn {
